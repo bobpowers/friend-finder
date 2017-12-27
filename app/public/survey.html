@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <style>
+    .btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+      background-color: orange;
+    }
+    .smallItalic {
+      font-style: italic;
+      font-weight: 200;
+      margin: 5px;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- ALL CONTENT DIV-->
+<div class="container">
+
+    <h2>Survey Questions</h2>
+    <hr>
+
+    <h3><strong>About You</strong></h3>
+    <h4>Name (Required)</h4>
+    <input type="text" id="nameInput" class="form-control" required="">
+
+    <h4>Link to Photo Image (Required)</h4>
+    <input type="text" id="photoInput" class="form-control" required="">
+
+    <hr>
+<!-- QUESTIONS -->
+    <h3><strong>Question 1</strong></h3>
+    <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+    <p class="smallItalic">(1 = Strongly Disagree  ||  5= Strongly Agree)</p>
+
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question1" value="1" autocomplete="off"> 1
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question1" value="2" autocomplete="off"> 2
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question1" value="3" autocomplete="off"> 3
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question1" value="4" autocomplete="off"> 4
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question1" value="5" autocomplete="off"> 5
+    </label>
+  </div>
+  <h3><strong>Question 2</strong></h3>
+    <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+    <p class="smallItalic">(1 = Strongly Disagree  ||  5= Strongly Agree)</p>
+
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question2" value="1" autocomplete="off"> 1
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question2" value="2" autocomplete="off"> 2
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question2" value="3" autocomplete="off"> 3
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question2" value="4" autocomplete="off"> 4
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question2" value="5" autocomplete="off"> 5
+    </label>
+  </div>
+  <h3><strong>Question 3</strong></h3>
+    <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+    <p class="smallItalic">(1 = Strongly Disagree  ||  5= Strongly Agree)</p>
+
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question3" value="1" autocomplete="off"> 1
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question3" value="2" autocomplete="off"> 2
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question3" value="3" autocomplete="off"> 3
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question3" value="4" autocomplete="off"> 4
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question3" value="5" autocomplete="off"> 5
+    </label>
+  </div>
+  <h3><strong>Question 4</strong></h3>
+    <h4>You rarely do something just out of sheer curiosity.</h4>
+    <p class="smallItalic">(1 = Strongly Disagree  ||  5= Strongly Agree)</p>
+
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question4" value="1" autocomplete="off"> 1
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question4" value="2" autocomplete="off"> 2
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question4" value="3" autocomplete="off"> 3
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question4" value="4" autocomplete="off"> 4
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question4" value="5" autocomplete="off"> 5
+    </label>
+  </div>
+  <h3><strong>Question 5</strong></h3>
+    <h4>People can rarely upset you.</h4>
+    <p class="smallItalic">(1 = Strongly Disagree  ||  5= Strongly Agree)</p>
+
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question5" value="1" autocomplete="off"> 1
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question5" value="2" autocomplete="off"> 2
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question5" value="3" autocomplete="off"> 3
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question5" value="4" autocomplete="off"> 4
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question5" value="5" autocomplete="off"> 5
+    </label>
+  </div>
+  <h3><strong>Question 6</strong></h3>
+    <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+    <p class="smallItalic">(1 = Strongly Disagree  ||  5= Strongly Agree)</p>
+
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question6" value="1" autocomplete="off"> 1
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question6" value="2" autocomplete="off"> 2
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question6" value="3" autocomplete="off"> 3
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question6" value="4" autocomplete="off"> 4
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question6" value="5" autocomplete="off"> 5
+    </label>
+  </div>
+  <h3><strong>Question 7</strong></h3>
+    <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+    <p class="smallItalic">(1 = Strongly Disagree  ||  5= Strongly Agree)</p>
+
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question7" value="1" autocomplete="off"> 1
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question7" value="2" autocomplete="off"> 2
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question7" value="3" autocomplete="off"> 3
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question7" value="4" autocomplete="off"> 4
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question7" value="5" autocomplete="off"> 5
+    </label>
+  </div>
+  <h3><strong>Question 8</strong></h3>
+    <h4>You rarely get carried away by fantasies and ideas.</h4>
+    <p class="smallItalic">(1 = Strongly Disagree  ||  5= Strongly Agree)</p>
+
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question8" value="1" autocomplete="off"> 1
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question8" value="2" autocomplete="off"> 2
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question8" value="3" autocomplete="off"> 3
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question8" value="4" autocomplete="off"> 4
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question8" value="5" autocomplete="off"> 5
+    </label>
+  </div>
+  <h3><strong>Question 9</strong></h3>
+    <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+    <p class="smallItalic">(1 = Strongly Disagree  ||  5= Strongly Agree)</p>
+
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question9" value="1" autocomplete="off"> 1
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question9" value="2" autocomplete="off"> 2
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question9" value="3" autocomplete="off"> 3
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question9" value="4" autocomplete="off"> 4
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question9" value="5" autocomplete="off"> 5
+    </label>
+  </div>
+  <h3><strong>Question 10</strong></h3>
+    <h4>You feel more energetic after spending time with a group of people.</h4>
+    <p class="smallItalic">(1 = Strongly Disagree  ||  5= Strongly Agree)</p>
+
+  <div class="btn-group" data-toggle="buttons">
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question10" value="1" autocomplete="off"> 1
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question10" value="2" autocomplete="off"> 2
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question10" value="3" autocomplete="off"> 3
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question10" value="4" autocomplete="off"> 4
+    </label>
+    <label class="btn btn-lg btn-primary">
+      <input type="radio" name="question10" value="5" autocomplete="off"> 5
+    </label>
+  </div>
+
+  <br><br><br>
+
+<!-- SUBMIT BUTTON -->
+  <button type="submit" class="btn btn-primary btn-lg btn-block" id="submitButton">Submit</button>
+    <hr>
+    <footer class="footer">
+      <div class="container">
+        <p><a href="/api/friends">API Friends List</a> | <a href=https://github.com/bobpowers/friend-finder.git>GitHub Repo</a></p>
+      </div>
+    </footer>
+
+<!-- MODAL -->
+  <div id="modalResults" class="modal fade">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Your Best Match!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h2 id="matchName"></h2>
+            <img id="matchPicture" src="http://via.placeholder.com/250/ffffff/000000" alt="Your Match">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END OF HTML -->
+<!-- END OF HTML -->
+<!-- END OF HTML -->
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <script>
+
+    $("#submitButton").on("click", function(){
+      var userName;
+      var userPhoto;
+      var userAnswers = [];
+      var newUserObject;
+
+      var submitAndCall = function(newUserObject){
+        console.log("submitAndCall working");
+        console.log(newUserObject);
+        $.post("/api/friends", newUserObject, function(response) {
+          console.log(response);
+          $("#matchName").text(response.name);
+          $("#matchPicture").attr("src", response.photo);
+          $("#modalResults").modal("toggle");
+        });
+      };
+
+      if ($("#nameInput").val() && $("#photoInput").val()) {
+        userPhoto = $("#photoInput").val();
+        userName = $("#nameInput").val();
+        for (var i = 1; i < 11; i++) {
+          if ($("input[name='question"+i+"']:checked").val()){
+            userAnswers.push($("input[name='question"+i+"']:checked").val());
+          } else {
+            alert("Answer every question. This is why you're alone.")
+            break
+          }
+        } 
+        newUserObject = {
+          "name": userName,
+          "photo": userPhoto,
+          "scores": userAnswers
+        }
+        submitAndCall(newUserObject);
+      } else {
+        alert("Dude. Fill every blank. Do you want a friend or not?.")
+      }
+    });
+
+  </script>
+
+</body>
+</html>
